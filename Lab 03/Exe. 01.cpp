@@ -34,8 +34,11 @@ class complex{
 int main(){
 	complex one(4,7);
 	complex two(1,3);
+	complex three = one;
 	one.show_comp();
 	two.show_comp();
+	three.show_comp();
+	
 	
 	return 0;
 	
