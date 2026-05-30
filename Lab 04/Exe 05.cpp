@@ -24,7 +24,7 @@ public:
     void display() const {  
         cout << "Customer Name: " << name << endl;
         cout << "Days: " << days << endl;
-        cout << "Rent: " << rent <<"/-" endl;
+        cout << "Rent: " << rent <<"/-" << endl;
     }
 };
 
